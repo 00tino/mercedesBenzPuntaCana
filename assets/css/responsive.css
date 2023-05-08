@@ -5,6 +5,10 @@
 }
 
 @media (max-width:1250px) {
+    .headerContent {
+        width: 90%;
+    }
+
     #fourthInfoCard #contentInfoCard img {
         width: 300px;
     }
