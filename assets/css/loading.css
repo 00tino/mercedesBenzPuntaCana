@@ -1,0 +1,134 @@
+#loading-section {
+    z-index: 999;
+    position:fixed; 
+    bottom: 100; 
+    right:0;
+    background-color: var(--background-dark);
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    animation: desapear 3s linear;
+    animation-iteration-count: 1;
+}
+
+#loading-section > #loading-container {
+    z-index: 999;
+    position:fixed; bottom:40px; right:40px;
+    display: flex;
+    margin: 5em;
+    position: relative;
+}
+
+#loading-section > #loading-container:before {
+    position: absolute;
+    opacity: 0;
+    top: -70px;
+    left: -35px;
+    --size: 70px;
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: var(--size) 0px red, calc(var(--size) * 2) 0px red, calc(var(--size) * 3) 0px red, calc(var(--size) * 4) 0px red;
+}
+
+#loading-section > #loading-container {
+    animation: drive 1s ease-in-out 2s;
+    animation-iteration-count: 1;
+}
+
+#loading-section > #loading-container::before {
+    opacity: 1;
+    animation: lights 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+#loading-container > #loading {
+    z-index: 999;
+    margin-right: 10px;
+    background-color: var(--background-dark);
+    position: relative;
+    overflow: hidden;
+    width: 180px;
+    height: 100px;
+    transform: skewX(-30deg);
+}
+
+#loading-container > #loading::after {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 100px;
+    box-shadow: -20px -20px red, -25px -25px white, -45px -45px red;
+    border-radius: .5em;
+    transform: translate(30%, 50%);
+}
+
+#loading-container > #loading1 {
+    z-index: 999;
+    background-color: red;
+    width: 30px;
+    height: 90px;
+    transform: skewX(-30deg) translateY(5px)
+}
+
+@keyframes drive {
+    0% {
+        transform: translateX(0);
+        filter: blur(0);
+    }
+
+    5% {
+        transform: translateX(-5vw) rotate(0deg)
+    }
+
+    100% {
+        transform: translateX(60vw) rotate(-10deg);
+        filter: blur(5px);
+    }
+}
+
+@keyframes lights {
+    20% {
+        background-color: green;
+        box-shadow: var(--size) 0px red, calc(var(--size) * 2) 0px red, calc(var(--size) * 3) 0px red, calc(var(--size) * 4) 0px red;
+    }
+
+    40% {
+        background-color: green;
+        box-shadow: var(--size) 0px green, calc(var(--size) * 2) 0px red, calc(var(--size) * 3) 0px red, calc(var(--size) * 4) 0px red;
+    }
+
+    60% {
+        background-color: green;
+        box-shadow: var(--size) 0px green, calc(var(--size) * 2) 0px green, calc(var(--size) * 3) 0px red, calc(var(--size) * 4) 0px red;
+    }
+
+    80% {
+        background-color: green;
+        box-shadow: var(--size) 0px green, calc(var(--size) * 2) 0px green, calc(var(--size) * 3) 0px green, calc(var(--size) * 4) 0px red;
+    }
+
+    99% {
+        opacity: 100;
+        background-color: green;
+        box-shadow: var(--size) 0px green, calc(var(--size) * 2) 0px green, calc(var(--size) * 3) 0px green, calc(var(--size) * 4) 0px green;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes desapear {
+    0% {
+        bottom: 0px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}

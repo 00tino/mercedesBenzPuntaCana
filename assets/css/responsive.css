@@ -1,0 +1,530 @@
+@media(max-width: 3000px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:1250px) {
+    #fourthInfoCard #contentInfoCard img {
+        width: 300px;
+    }
+
+    #thirdInfoCard #contentInfoCard img {
+        width: 80%;
+    }
+
+    #fourthInfoCard #contentInfoCard iframe {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:1128px) {
+    .card__heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:1157px) {
+    .card__content {
+        width: 86%;
+    }
+}
+
+@media (max-width: 1065px) {
+    .card__content {
+        width: 84%;
+    }
+
+    .frame .list #ul .text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1028px) {
+    figure.snip1206 {
+        min-width: 42%;
+        max-height: 42%;
+    }
+}
+
+@media (max-width: 992px) {
+    #fourthInfoCard #contentInfoCard iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 975px) {
+    #infoCard #firstInfoCard {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 955px) {
+    .card__content {
+        width: 82%;
+    }
+
+    .card__heading {
+        font-size: 1.3em;
+    }
+
+    #infoCard #firstInfoCard {
+        overflow-y: scroll;
+    }
+
+    #modal .popup__text #h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .frame .list #ul .text {
+        font-size: 0.7rem;
+    }
+
+    .infoCard #contentInfoCard h1 {
+        font-size: 3rem;
+        margin-top: -2.5rem;
+    }
+
+    #picturesCarousel {
+        margin-top: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 907px) {
+    .card__content {
+        width: 80.5%;
+    }
+}
+
+@media(max-width: 885px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card__content {
+        width: 87.5%;
+    }
+
+    .card__heading {
+        font-size: 1.9em;
+    }
+
+    .frame .list #ul .text {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 854px) {
+    #navbar button {
+        height: 70%;
+        transform: scale(.8);
+    }
+
+    #navbar #whatsapp {
+        margin-left: 0px;
+    }
+
+    #carousel>img {
+        transform: translate(-25%, 0%);
+    }
+}
+
+@media (max-width: 810px) {
+    figure.snip1206 {
+        min-width: 100%;
+        max-height: 100%;
+    }
+
+    figure.snip1206 h2 {
+        font-size: 2rem;
+    }
+
+    figure.snip1206 p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .list #ul .button {
+        margin-right: -0.7rem;
+    }
+
+    .frame .list #ul .text {
+        font-size: 0.6rem;
+    }
+}
+
+@media(max-width: 785px) {
+    .card__content {
+        width: 85%;
+    }
+
+    .frame .list #ul .text {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:772px) {
+    .card__heading {
+        font-size: 1.5rem;
+    }    
+}
+
+@media (max-width: 769px) {
+    .card__content .buttonContainer .button {
+        opacity: 1;
+    }
+
+    #modal .popup__text h1 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    #modal .popup__photo {
+        width: 40%;
+    }
+
+    #modal .popup__text {
+        width: 60%;
+    }
+    
+    #modal .popup__text p {
+        font-size: 10.5px;
+    }
+}
+
+@media (max-width: 750px) {
+    #textLogoBrand {
+        scale: 1.4;
+    }
+
+    .infoCard #contentInfoCard h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 748px) {
+    #instagram {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .card__heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 725px) {
+    .frame {
+        width: 100%;
+        margin: 0.1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .frame .list #ul .text {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 670px) {
+    .frame {
+        width: 110%;
+        margin: -0.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 660px) {
+    #navbar div #dafing {
+        font-size: 1.5rem;
+        margin-left: 0.3rem;
+    }
+
+    #navbar #wa {
+        font-size: 1rem;
+    }
+
+    .viewport {
+        height: 250px;
+    }
+
+    .carousel>img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 638px) {
+    .card__heading {
+        font-size: 1.3rem;
+    }
+
+    .card__content {
+        width: 82%;
+    }
+
+    .list #ul .button {
+        display: none;
+    }
+
+    .frame .list #ul .text {
+        width: 100%;
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .infoCard #contentInfoCard h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 591px) {
+    .infoCard .cross {
+        top: 13.5%;
+        right: 16%;
+    }
+
+    .card__heading {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width:572px) {
+    .card__heading {
+        font-size: 1.1em;
+    }    
+
+    .card-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card__content {
+        width: 87.5%;
+    }
+
+    .card__heading {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 540px) {
+    #navbar div #dafing {
+        font-size: 1rem;
+    }
+
+    #navbar #wa {
+        font-size: 0.8rem;
+        margin-top: 0.73rem;
+    }
+
+    figure.snip1206 h2 {
+        font-size: 1.5rem;
+    }
+
+    figure.snip1206 p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 520px) {
+    #modal .popup__text #h1 {
+        font-size: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    #modal .popup__text {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 510px) {
+    .infoCard #contentInfoCard h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #textHeader {
+        font-size: 3rem;
+    }
+
+    figure.snip1206 h2 {
+        font-size: 1rem;
+    }
+
+    figure.snip1206 p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 460px) {
+    .frame {
+        height: 430px;
+    }
+
+    .frame1 {
+        height: 275px;
+    }
+
+    .frame2 {
+        height: 400px;
+    }
+
+    .frame3,
+    .frame4,
+    .frame6 {
+        height: 350px;
+    }
+
+    .frame5 {
+        height: 575px;
+    }
+
+    .frame7,
+    .frame8 {
+        height: 310px;
+    }
+
+
+    .frame .list {
+        height: 430px;
+    }
+
+    .frame1 .list1 {
+        height: 275px;
+    }
+
+    .frame2 .list2 {
+        height: 400px;
+    }
+
+    .frame3 .list3,
+    .frame4 .list4,
+    .frame6 .list6 {
+        height: 350px;
+    }
+
+    .frame5 .list5 {
+        height: 575px;
+    }
+    
+    .frame7 .list7,
+    .frame8 .list8 {
+        height: 310px;
+    }
+
+    .infoCard #contentInfoCard {
+        padding: 2rem;
+    }
+
+    .infoCard #contentInfoCard h1 {
+        margin-top: -1rem;
+    }
+}
+
+@media (max-width: 446px) {
+    #navbar #wa {
+        margin-top: 0.4rem;
+    }
+
+    #fourthInfoCard #contentInfoCard img,
+    #thirdInfoCard #contentInfoCard img {
+        width: 90%;
+    }
+}
+
+@media (max-width:410px) {
+    .card__heading {
+        font-size: 1.7em;
+    }    
+}
+
+@media (max-width: 398px) {
+    .card__content {
+        width: 85%;
+    }
+
+    .card__heading {
+        font-size: 1.5rem;
+    }
+
+    .frame .list #ul .text {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 365px) {
+    #textHeader {
+        font-size: 3rem;
+    }
+
+    .infoCard #contentInfoCard h1 {
+        font-size: 1rem;
+    }
+
+    .card__content {
+        width: 83%;
+    }
+
+    figure.snip1206 h2 {
+        font-size: 0.8rem;
+    }
+
+    figure.snip1206 p {
+        font-size: 0.6em;
+    }
+
+    #instagram h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:338px) {
+    .card__heading {
+        font-size: 1.3rem;
+    }    
+}
+
+@media (max-width: 330px) {
+    .card__content {
+        width: 81%
+    }
+
+    .list .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 315px) {
+    .frame2,
+    .frame2 .list2 {
+        height: 460px;
+    }
+
+    .frame5,
+    .frame .list5 {
+        height: 640px;
+    }
+
+    .frame6,
+    .frame6 .list6 {
+        height: 340px;
+    }
+}
