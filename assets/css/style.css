@@ -540,7 +540,6 @@ main {
 #fourthInfoCard #contentInfoCard img {
     width: 400px;
     object-fit: cover;
-    /* margin: 10px; */
     border: 3px solid white;
 }
 
@@ -551,7 +550,7 @@ main {
     border: 3px solid white;
 }
 
-#fourthInfoCard #contentInfoCard iframe {
+#fourthInfoCard #contentInfoCard iframe { */
     width: 400px;
     height: 400px;
     margin: 10px;
