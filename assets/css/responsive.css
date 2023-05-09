@@ -388,7 +388,7 @@
     }
 
     .frame2 {
-        height: 400px;
+        height: 440px;
     }
 
     .frame3,
@@ -398,7 +398,7 @@
     }
 
     .frame5 {
-        height: 575px;
+        height: 600px;
     }
 
     .frame7,
@@ -416,7 +416,7 @@
     }
 
     .frame2 .list2 {
-        height: 400px;
+        height: 440px;
     }
 
     .frame3 .list3,
@@ -426,7 +426,7 @@
     }
 
     .frame5 .list5 {
-        height: 575px;
+        height: 600px;
     }
     
     .frame7 .list7,
@@ -519,16 +519,21 @@
 @media (max-width: 315px) {
     .frame2,
     .frame2 .list2 {
-        height: 460px;
+        height: 540px;
+    }
+
+    .frame3,
+    .frame3 .list3 {
+        height: 370px;
     }
 
     .frame5,
     .frame .list5 {
-        height: 640px;
+        height: 775px;
     }
 
     .frame6,
     .frame6 .list6 {
-        height: 340px;
+        height: 375px;
     }
 }
