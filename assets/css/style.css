@@ -528,6 +528,27 @@ main {
 }
 
 /* hospedaje */
+swiper-container {
+    height: 300px;
+    width: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    background: var(--background-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* hospedaje */
 #fourthInfoCard #pictureUbicacion {
     width: 100%;
     justify-content: center;
@@ -550,8 +571,8 @@ main {
     border: 3px solid white;
 }
 
-#fourthInfoCard #contentInfoCard iframe { */
-    width: 400px;
+#fourthInfoCard #contentInfoCard iframe {
+    */ width: 400px;
     height: 400px;
     margin: 10px;
     border: 3px solid white;
