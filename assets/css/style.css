@@ -195,14 +195,14 @@ b {
 #navbar div {
     display: flex;
     /* justify-content: space-between; */
-    justify-content: center;
     background: linear-gradient(var(--background-dark), var(--background-dark));
 }
 
 #navbar div a {
-    padding-left: 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
     text-decoration: none;
     color: var(--black);
 }
