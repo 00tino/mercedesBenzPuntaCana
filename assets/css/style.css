@@ -194,7 +194,8 @@ b {
 
 #navbar div {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     background: linear-gradient(var(--background-dark), var(--background-dark));
 }
 
@@ -226,7 +227,7 @@ b {
 }
 
 #navbar div img {
-    margin-right: .5rem;
+    margin: 0.5rem 0 0.5rem 0.5rem;
     height: 2rem;
 }
 
