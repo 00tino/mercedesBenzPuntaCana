@@ -141,7 +141,8 @@ b {
 }
 
 #brandLogo {
-    width: 100%;
+    width: 70%;
+    border-radius: 20px;
     transition: all .5s;
 }
 
